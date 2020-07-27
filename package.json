@@ -1,0 +1,28 @@
+{
+  "name": "cloud-computing-decal",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.1",
+    "@gridsome/vue-remark": "^0.2.2",
+    "@noxify/gridsome-remark-classes": "^1.0.0",
+    "@primer/css": "^15.0.0",
+    "gh-pages": "^3.1.0",
+    "github-syntax-light": "^0.5.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-prismjs-all": "^0.3.5",
+    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "gridsome-remark-katex": "^0.1.1",
+    "node-sass": "^4.14.1",
+    "remark-html-katex": "^2.0.1",
+    "remark-math": "^2.0.1",
+    "sass-loader": "^9.0.2"
+  },
+  "devDependencies": {}
+}

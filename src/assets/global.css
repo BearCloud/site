@@ -1,0 +1,33 @@
+p {
+  font-size: 16px;
+}
+p img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul, ol {
+  font-size: 16px;
+  padding-left: 4em;
+  padding-bottom: 10px;
+  margin: 10px;
+	list-style: circle;
+  list-style-position: inside;
+}
+ol ol, ul ol {
+  list-style-type: lower-roman
+}
+ul ul ol, ul ol ol, ol ul ol, ol ol ol {
+  list-style-type: lower-alpha
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#FFFF00;
+  height: 1px;
+}
