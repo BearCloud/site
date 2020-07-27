@@ -1,6 +1,6 @@
 module.exports = {
   siteName: "Cloud Computing Decal",
-  pathPrefix: "",
+  pathPrefix: "site",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
