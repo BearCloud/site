@@ -14,7 +14,7 @@
       <g-link class="nav__link" to="/announcements/">Announcements</g-link>
       <g-link class="nav__link" to="/staff/">Course Staff</g-link>
       <g-link class="nav__link" to="/resources/">Resources</g-link>
-      <g-link class="nav__link" to="/policies/">Policies</g-link>
+      <g-link class="nav__link" to="/syllabus/">Syllabus</g-link>
       <a class="nav__link" href="https://piazza.com/class/">Piazza</a>
     </nav>
   </nav>

@@ -1,5 +1,12 @@
 <template>
 <table id="schedule">
+  <colgroup>
+     <col span="1" style="width: 5%;">
+     <col span="1" style="width: 15%;">
+     <col span="1" style="width: 40%;">
+     <col span="1" style="width: 20%;">
+     <col span="1" style="width: 20%;">
+  </colgroup>
   <thead>
     <th>Week</th>
     <th>Date</th>
@@ -8,13 +15,15 @@
     <th>Assignments</th>
   </thead>
   <tr v-for="(edge, i) in $static.weeks.edges" :key="edge.node.id">
-    <td :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
+    <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
     <td>{{ edge.node.date }}</td>
     <td>
-      <LectureEntry
-        :display="edge.node.topic"
-        :link="edge.node.lecture"
-       />
+      <nav class="schedule-table-cell">
+        <LectureEntry
+          :display="edge.node.topic"
+          :link="edge.node.lecture"
+         />
+       </nav>
     </td>
     <td>
       <ScheduleEntry
@@ -70,6 +79,7 @@ export default {
 
 <style>
 #schedule {
+  table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
 }
@@ -80,6 +90,11 @@ export default {
 }
 #schedule, #schedule th, #schedule td {
   border: 1px solid black;
+}
+.schedule-table-cell {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
 }
 </style>
 
