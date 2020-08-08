@@ -1,6 +1,6 @@
 [
   {
-    "date": "2020-07-14",
+    "date": "2020-09-01",
     "topic": "Cloud Computing and SaaS Overview, Definitions, Schematic Diagram - \"Map of the World\", Big Picture",
     "lecture": "",
     "homework": "",
@@ -9,7 +9,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-16",
+    "date": "2020-09-03",
     "topic": "Git, Unix Command Line (PRs), Text Editors",
     "lecture": "",
     "homework": "",
@@ -18,7 +18,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-17",
+    "date": "2020-09-08",
     "topic": "Guest Speaker",
     "lecture": "",
     "homework": "",
@@ -27,7 +27,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-18",
+    "date": "2020-09-10",
     "topic": "Guest Speaker",
     "lecture": "",
     "homework": "",
@@ -36,7 +36,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-19",
+    "date": "2020-09-15",
     "topic": "Databases",
     "lecture": "",
     "homework": "",
@@ -45,7 +45,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-20",
+    "date": "2020-09-17",
     "topic": "Cloud Databases",
     "lecture": "",
     "homework": "",
@@ -54,7 +54,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-21",
+    "date": "2020-09-22",
     "topic": "Resume and LinkedIn Workshop",
     "lecture": "",
     "homework": "",
@@ -63,7 +63,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-22",
+    "date": "2020-09-24",
     "topic": "Backend, HTTP API",
     "lecture": "",
     "homework": "",
@@ -72,7 +72,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-23",
+    "date": "2020-09-29",
     "topic": "Deploying Backend to Cloud",
     "lecture": "",
     "homework": "",
@@ -81,7 +81,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-24",
+    "date": "2020-10-01",
     "topic": "Microservice Architecture",
     "lecture": "",
     "homework": "",
@@ -90,7 +90,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-25",
+    "date": "2020-10-06",
     "topic": "Docker",
     "lecture": "",
     "homework": "",
@@ -99,7 +99,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-26",
+    "date": "2020-10-08",
     "topic": "Kubernetes",
     "lecture": "",
     "homework": "",
@@ -108,7 +108,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-27",
+    "date": "2020-10-13",
     "topic": "Authentication and Security, JSON Web Tokens, Auth System Design",
     "lecture": "",
     "homework": "",
@@ -117,7 +117,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-28",
+    "date": "2020-10-15",
     "topic": "More Security",
     "lecture": "",
     "homework": "",
@@ -126,7 +126,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-29",
+    "date": "2020-10-20",
     "topic": "Guest Speaker",
     "lecture": "",
     "homework": "",
@@ -135,7 +135,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-30",
+    "date": "2020-10-22",
     "topic": "Guest Speaker",
     "lecture": "",
     "homework": "",
@@ -144,7 +144,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-07-31",
+    "date": "2020-10-27",
     "topic": "Frontend",
     "lecture": "",
     "homework": "",
@@ -153,7 +153,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-01",
+    "date": "2020-10-29",
     "topic": "FaaS",
     "lecture": "",
     "homework": "",
@@ -162,7 +162,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-02",
+    "date": "2020-11-03",
     "topic": "CI/CD, Miscellaneous Topics",
     "lecture": "",
     "homework": "",
@@ -171,7 +171,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-03",
+    "date": "2020-11-05",
     "topic": "Guest Speaker",
     "lecture": "",
     "homework": "",
@@ -180,7 +180,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-04",
+    "date": "2020-11-10",
     "topic": "Review",
     "lecture": "",
     "homework": "",
@@ -189,7 +189,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-05",
+    "date": "2020-11-12",
     "topic": "Review",
     "lecture": "",
     "homework": "",
@@ -198,7 +198,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-06",
+    "date": "2020-11-17",
     "topic": "Project",
     "lecture": "",
     "homework": "",
@@ -207,7 +207,7 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-07",
+    "date": "2020-11-19",
     "topic": "Project",
     "lecture": "",
     "homework": "",
@@ -216,8 +216,8 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-08",
-    "topic": "Dead Week",
+    "date": "2020-11-24",
+    "topic": "",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -225,8 +225,8 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-09",
-    "topic": "Dead Week",
+    "date": "2020-11-26",
+    "topic": "",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -234,8 +234,8 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-10",
-    "topic": "No Class",
+    "date": "2020-12-01",
+    "topic": "",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -243,8 +243,8 @@
     "quiz": ""
   },
   {
-    "date": "2020-08-11",
-    "topic": "No Class",
+    "date": "2020-12-03",
+    "topic": "",
     "lecture": "",
     "homework": "",
     "note": "",

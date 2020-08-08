@@ -1,11 +1,11 @@
 <template>
 <table id="schedule">
   <colgroup>
-     <col span="1" style="width: 5%;">
+     <col span="1" style="width: 9%;">
      <col span="1" style="width: 15%;">
      <col span="1" style="width: 40%;">
-     <col span="1" style="width: 20%;">
-     <col span="1" style="width: 20%;">
+     <col span="1" style="width: 18%;">
+     <col span="1" style="width: 18%;">
   </colgroup>
   <thead>
     <th>Week</th>
@@ -30,7 +30,7 @@
         :data="$static.notes"
         prefix="notes"
         :link="edge.node.note"
-        noLinkDisplay="-"
+        noLinkDisplay=""
       />
     </td>
     <td>
@@ -38,14 +38,14 @@
         :data="$static.homeworks"
         prefix="homeworks"
         :link="edge.node.homework"
-        noLinkDisplay="No homework"
+        noLinkDisplay=""
       />
       <br />
       <ScheduleEntry
         :data="$static.quizes"
         prefix="quizes"
         :link="edge.node.quiz"
-        noLinkDisplay="No quiz"
+        noLinkDisplay=""
       /><br />
       <ScheduleEntry
         :data="$static.projects"
@@ -90,6 +90,9 @@ export default {
 }
 #schedule, #schedule th, #schedule td {
   border: 1px solid black;
+}
+#schedule th {
+  font-weight: bold;
 }
 .schedule-table-cell {
   display: inline-block;

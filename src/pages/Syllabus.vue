@@ -86,10 +86,6 @@
     <p>
       Students are expected to participate in all online activities as listed on the course calendar. To accommodate students in different time zones, lectures will be webcasted.
     </p>
-    <h4>Build Rapport</h4>
-    <p>
-      If you find that you have any trouble keeping up with assignments or other aspects of the course, make sure you let your course staff know as early as possible. As you will find, building rapport and effective relationships are key to becoming an effective professional. Make sure that you are proactive in informing your instructor when difficulties arise during the semester so that we can help you find a solution.
-    </p>
     <h4>Complete Assignments</h4>
     <p>
       <b>All assignments for this course will be submitted electronically through Gradescopes unless otherwise instructed.</b> Assignments must be submitted by the given deadline or special permission must be requested from course staff before the due date. Extensions will not be given beyond the next assignment except under extreme circumstances.
