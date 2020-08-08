@@ -44,7 +44,7 @@
     <ul>
       <li>Internet connection</li>
       <li>Access to bCourses and Gradescope</li>
-      <li>Laptop or desktop that supports Docker</li>
+      <li>Laptop or desktop</li>
     </ul>
     <h4>Online Course Structure</h4>
     <p>
