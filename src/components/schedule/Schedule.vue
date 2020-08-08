@@ -16,47 +16,49 @@
       <th>Assignments</th>
     </tr>
   </thead>
-  <tr v-for="(edge, i) in $static.weeks.edges" :key="edge.node.id">
-    <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
-    <td>{{ edge.node.date }}</td>
-    <td>
-      <nav class="schedule-table-cell">
-        <LectureEntry
-          :display="edge.node.topic"
-          :link="edge.node.lecture"
-         />
-       </nav>
-    </td>
-    <td>
-      <ScheduleEntry
-        :data="$static.notes"
-        prefix="notes"
-        :link="edge.node.note"
-        noLinkDisplay=""
-      />
-    </td>
-    <td>
-      <ScheduleEntry
-        :data="$static.homeworks"
-        prefix="homeworks"
-        :link="edge.node.homework"
-        noLinkDisplay=""
-      />
-      <br />
-      <ScheduleEntry
-        :data="$static.quizes"
-        prefix="quizes"
-        :link="edge.node.quiz"
-        noLinkDisplay=""
-      /><br />
-      <ScheduleEntry
-        :data="$static.projects"
-        prefix="projects"
-        :link="edge.node.project"
-        noLinkDisplay=""
-      />
-    </td>
-  </tr>
+  <tbody>
+    <tr v-for="(edge, i) in $static.weeks.edges" :key="edge.node.id">
+      <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
+      <td>{{ edge.node.date }}</td>
+      <td>
+        <nav class="schedule-table-cell">
+          <LectureEntry
+            :display="edge.node.topic"
+            :link="edge.node.lecture"
+           />
+         </nav>
+      </td>
+      <td>
+        <ScheduleEntry
+          :data="$static.notes"
+          prefix="notes"
+          :link="edge.node.note"
+          noLinkDisplay=""
+        />
+      </td>
+      <td>
+        <ScheduleEntry
+          :data="$static.homeworks"
+          prefix="homeworks"
+          :link="edge.node.homework"
+          noLinkDisplay=""
+        />
+        <br />
+        <ScheduleEntry
+          :data="$static.quizes"
+          prefix="quizes"
+          :link="edge.node.quiz"
+          noLinkDisplay=""
+        /><br />
+        <ScheduleEntry
+          :data="$static.projects"
+          prefix="projects"
+          :link="edge.node.project"
+          noLinkDisplay=""
+        />
+      </td>
+    </tr>
+  </tbody>
 </table> 
 </template>
 
