@@ -8,11 +8,13 @@
      <col span="1" style="width: 18%;">
   </colgroup>
   <thead>
-    <th>Week</th>
-    <th>Date</th>
-    <th>Lecture</th>
-    <th>Notes</th>
-    <th>Assignments</th>
+    <tr>
+      <th>Week</th>
+      <th>Date</th>
+      <th>Lecture</th>
+      <th>Notes</th>
+      <th>Assignments</th>
+    </tr>
   </thead>
   <tr v-for="(edge, i) in $static.weeks.edges" :key="edge.node.id">
     <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
