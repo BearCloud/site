@@ -85,6 +85,7 @@ export default {
 #schedule {
   table-layout: fixed;
   width: 100%;
+  min-width: 630px;
   border-collapse: collapse;
 }
 #schedule td {

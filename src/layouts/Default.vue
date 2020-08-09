@@ -4,6 +4,9 @@
     <slot />
     <nav class="blank" />
     <hr />
+    <p>
+      We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.
+    </p>
     <footer class="footer">
       <g-image src="~/assets/GitHub-Mark-32px.png" /><a class="github-link" href="https://github.com/BerkeleyCloudComputingDecal/site">Website Repository</a>
     </footer>
