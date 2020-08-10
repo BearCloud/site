@@ -12,6 +12,7 @@
       <li><b>Course Staff:</b> Cyrus Bugwadia, Jie Luo, Sumer Kohli, Ryan Searcy, Smit Rajyaguru</li>
       <li><b>Staff Sponsor:</b> Professor Armando Fox</li>
       <li><b>Unit Count:</b> 3</li>
+      <li><b>Meeting Times:</b> Tuesday and Thursdays, 7-8 PM (PT) </li>
       <li><b>Communications:</b> course Piazza and email, debugging done through Piazza</li>
       <li><b>Email: </b> <i>TBD</i></li>
       <li><b>Scheduler Page: </b> <a href="https://classes.berkeley.edu/content/2020-fall-compsci-198-073-grp-073">https://classes.berkeley.edu/content/2020-fall-compsci-198-073-grp-073</a></li>
