@@ -1,6 +1,6 @@
 # Cloud Computing Decal
 
-https://berkeleycloudcomputingdecal.github.io/site/
+https://calcloud.org/
 
 Requires NodeJS@12 and npm@6
 

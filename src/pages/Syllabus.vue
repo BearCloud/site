@@ -9,7 +9,7 @@
     <h4>Logistics</h4>
     <ul>
       <li><b>Instructors:</b> Ari Rigan, Shane Fan</li>
-      <li><b>Course Staff:</b> Cyrus Bugwadia, Jie Luo, Sumer Kohli, Ryan Searcy, Smit Rajyaguru</li>
+      <li><b>Course Staff:</b> Cyrus Bugwadia, Jie Luo, Sumer Kohli, Ryan Searcy, Smit Rajyaguru, Vanshaj Singhania</li>
       <li><b>Staff Sponsor:</b> Professor Armando Fox</li>
       <li><b>Unit Count:</b> 3</li>
       <li><b>Meeting Times:</b> Tuesday and Thursdays, 7-8 PM (PT) </li>
