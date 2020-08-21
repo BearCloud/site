@@ -5,7 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && node ./scripts/cname.js && gh-pages -d dist"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
