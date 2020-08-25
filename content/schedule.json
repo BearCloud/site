@@ -1,7 +1,7 @@
 [
   {
     "date": "2020-09-01",
-    "topic": "Cloud Computing and SaaS Overview, Definitions, Schematic Diagram - \"Map of the World\", Big Picture",
+    "topic": "Cloud Computing and SaaS Overview - \"Map of the World\"",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -10,7 +10,16 @@
   },
   {
     "date": "2020-09-03",
-    "topic": "Git, Unix Command Line (PRs), Text Editors",
+    "topic": "Git, Unix Command Line, Text Editors",
+    "lecture": "",
+    "homework": "",
+    "note": "",
+    "project": "",
+    "quiz": ""
+  },
+  {
+    "date": "2020-09-24",
+    "topic": "Web Dev / HTTP API",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -19,7 +28,7 @@
   },
   {
     "date": "2020-09-08",
-    "topic": "Guest Speaker",
+    "topic": "Introduction to Golang",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -37,7 +46,7 @@
   },
   {
     "date": "2020-09-15",
-    "topic": "Databases",
+    "topic": "Introduction to Docker",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -46,7 +55,7 @@
   },
   {
     "date": "2020-09-17",
-    "topic": "Cloud Databases",
+    "topic": "Introduction to Databases/SQL",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -55,16 +64,7 @@
   },
   {
     "date": "2020-09-22",
-    "topic": "Resume and LinkedIn Workshop",
-    "lecture": "",
-    "homework": "",
-    "note": "",
-    "project": "",
-    "quiz": ""
-  },
-  {
-    "date": "2020-09-24",
-    "topic": "Backend, HTTP API",
+    "topic": "Project",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -73,7 +73,7 @@
   },
   {
     "date": "2020-09-29",
-    "topic": "Deploying Backend to Cloud",
+    "topic": "Resume Workshop",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -82,7 +82,7 @@
   },
   {
     "date": "2020-10-01",
-    "topic": "Microservice Architecture",
+    "topic": "LinkedIn Workshop",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -91,7 +91,7 @@
   },
   {
     "date": "2020-10-06",
-    "topic": "Docker",
+    "topic": "Cloud Deployments",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -100,7 +100,7 @@
   },
   {
     "date": "2020-10-08",
-    "topic": "Kubernetes",
+    "topic": "Continuous Integration/Continuous Deployment",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -109,7 +109,7 @@
   },
   {
     "date": "2020-10-13",
-    "topic": "Authentication and Security, JSON Web Tokens, Auth System Design",
+    "topic": "Overview of Web Security",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -118,7 +118,7 @@
   },
   {
     "date": "2020-10-15",
-    "topic": "More Security",
+    "topic": "Basic Auth System Design",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -145,7 +145,7 @@
   },
   {
     "date": "2020-10-27",
-    "topic": "Frontend",
+    "topic": "Microservices",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -154,7 +154,7 @@
   },
   {
     "date": "2020-10-29",
-    "topic": "FaaS",
+    "topic": "Kuberenetes",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -163,7 +163,7 @@
   },
   {
     "date": "2020-11-03",
-    "topic": "CI/CD, Miscellaneous Topics",
+    "topic": "Functions as a Service",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -181,7 +181,7 @@
   },
   {
     "date": "2020-11-10",
-    "topic": "Review",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -190,7 +190,7 @@
   },
   {
     "date": "2020-11-12",
-    "topic": "Review",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -199,7 +199,7 @@
   },
   {
     "date": "2020-11-17",
-    "topic": "Project",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -208,7 +208,7 @@
   },
   {
     "date": "2020-11-19",
-    "topic": "Project",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -217,7 +217,7 @@
   },
   {
     "date": "2020-11-24",
-    "topic": "",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -226,7 +226,7 @@
   },
   {
     "date": "2020-11-26",
-    "topic": "",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -235,7 +235,7 @@
   },
   {
     "date": "2020-12-01",
-    "topic": "",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
@@ -244,7 +244,7 @@
   },
   {
     "date": "2020-12-03",
-    "topic": "",
+    "topic": "Miscellaneous Topics",
     "lecture": "",
     "homework": "",
     "note": "",
