@@ -83,6 +83,10 @@
     </ul>
 
     <h2>Course Policies</h2>
+    <h4>Attendance</h4>
+    <p>
+      Students have three excused absences.
+    </p>
     <h4>Participation</h4>
     <p>
       Students are expected to participate in all online activities as listed on the course calendar. To accommodate students in different time zones, lectures will be webcasted.
