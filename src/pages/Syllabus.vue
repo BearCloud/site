@@ -89,10 +89,14 @@
     </p>
     <h4>Complete Assignments</h4>
     <p>
-      <b>All assignments for this course will be submitted electronically through Gradescopes unless otherwise instructed.</b> Assignments must be submitted by the given deadline or special permission must be requested from course staff before the due date. Extensions will not be given beyond the next assignment except under extreme circumstances.
+      <u>All assignments for this course will be submitted electronically through Gradescopes unless otherwise instructed.</u> Assignments must be submitted by the given deadline or special permission must be requested from course staff before the due date. Extensions will not be given beyond the next assignment except under extreme circumstances.
     </p>
     <p>
       All discussion assignments must be completed by the assignment due date and time. Late or missing discussion assignments will lower your grade.
+    </p>
+    <h4>Collaboration</h4>
+    <p>
+      Although you are encouraged to work with other students about the concepts, algorithms, approaches, etc. needed to complete the course's assignments, all code you turn in must be your own. You may not directly modify, touch, or even look at another student's code. Directly copying from any source, including online sources, is forbidden. If you receive help from any source, please cite those sources in your code and/or assignment.
     </p>
     <h4>Inform Course Staff of Any Accommodations Needed</h4>
     <p>
