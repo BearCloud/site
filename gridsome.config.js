@@ -46,6 +46,7 @@ module.exports = {
   ],
   transformers: {
     remark: {
+      externalLinksTarget: true,
       plugins: [
         'gridsome-remark-katex',
         'gridsome-plugin-remark-prismjs-all',
