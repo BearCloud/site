@@ -4,7 +4,7 @@
     <nav class="staff-text">
       <h2>{{ name }}</h2>
       <h4>{{ title }}</h4>
-      <p>{{ blurb }}</p>
+      <p><span v-html="blurb"></span></p>
     </nav>
   </nav>
 </template>
