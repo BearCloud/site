@@ -47,14 +47,14 @@ export default {
           img: "cyrus_bugwadia.jpg",
           name: "Cyrus Bugwadia",
           title: "Course Staff",
-          blurb: "I'm Cyrus (he/him/his) and I'm a second-year intending to major in Computer Science. Outside of the \"classroom\" (more like meeting room), catch me watching all things sports related, attempting and failing to make all kinds of recipes, and answering Piazza questions.",
+          blurb: "Hi everyone! I'm Cyrus (he/him/his) and I'm a second-year intending to major in Computer Science. Outside of the \"classroom\" (more like meeting room), catch me watching all things sports related, attempting and failing to make all kinds of recipes, and answering Piazza questions.",
         },
         {
           id: 3,
           img: "jie_luo.jpeg",
           name: "Jie Luo",
           title: "Course Staff",
-          blurb: "4th year CS + Mathematics",
+          blurb: "4th year CS + Math",
         },
         {
           id: 4,
