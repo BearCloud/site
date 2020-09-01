@@ -11,6 +11,7 @@
     </nav>
     <br />
     <p>
+      Lectures are on Tuesdays and Thursdays, 7:00 PM - 8:00 PM (PT)
     </p>
     <br />
     <Schedule />
