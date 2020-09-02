@@ -12,48 +12,46 @@
       <th>Week</th>
       <th>Date</th>
       <th>Lecture</th>
-      <th>Notes</th>
+      <th>Slides</th>
       <th>Assignments</th>
     </tr>
   </thead>
   <tbody>
-    <tr v-for="(edge, i) in $static.weeks.edges" :key="edge.node.id">
+    <tr v-for="(entry, i) in schedule">
       <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
-      <td>{{ edge.node.date }}</td>
+      <td>{{ entry.date }}</td>
       <td>
         <nav class="schedule-table-cell">
           <LectureEntry
-            :display="edge.node.topic"
-            :link="edge.node.lecture"
+            :display="entry.topic"
+            :link="entry.lecture"
            />
          </nav>
       </td>
       <td>
-        <ScheduleEntry
-          :data="$static.notes"
-          prefix="notes"
-          :link="edge.node.note"
-          noLinkDisplay=""
+        <SlideEntry
+          display="Slides"
+          :link="entry.slides"
         />
       </td>
       <td>
         <ScheduleEntry
-          :data="$static.homeworks"
+          :display="entry.homework.display"
           prefix="homeworks"
-          :link="edge.node.homework"
+          :link="entry.homework.link"
           noLinkDisplay=""
         />
         <br />
         <ScheduleEntry
-          :data="$static.quizes"
+          :display="entry.quiz.display"
           prefix="quizes"
-          :link="edge.node.quiz"
+          :link="entry.quiz.link"
           noLinkDisplay=""
         /><br />
         <ScheduleEntry
-          :data="$static.projects"
+          :display="entry.project.display"
           prefix="projects"
-          :link="edge.node.project"
+          :link="entry.project.link"
           noLinkDisplay=""
         />
       </td>
@@ -65,18 +63,526 @@
 <script>
 import LectureEntry from '~/components/schedule/LectureEntry.vue'
 import ScheduleEntry from '~/components/schedule/ScheduleEntry.vue'
+import SlideEntry from '~/components/schedule/SlideEntry.vue'
 
 export default {
   name: 'Schedule',
   props: [],
   data: function () {
     return {
-      daysPerWeek: 2
+      daysPerWeek: 2,
+      schedule: [
+        {
+          "date": "2020-09-01",
+          "topic": "Cloud Computing and SaaS Overview - \"Map of the World\"",
+          "lecture": "",
+          "slides": "lecture_1.pdf",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-03",
+          "topic": "Git, Unix Command Line, Text Editors",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-24",
+          "topic": "Web Dev / HTTP API",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-08",
+          "topic": "Introduction to Golang",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-10",
+          "topic": "Guest Speaker",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-15",
+          "topic": "Introduction to Docker",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-17",
+          "topic": "Introduction to Databases/SQL",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-22",
+          "topic": "Project",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-09-29",
+          "topic": "Resume Workshop",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-01",
+          "topic": "LinkedIn Workshop",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-06",
+          "topic": "Cloud Deployments",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-08",
+          "topic": "Continuous Integration/Continuous Deployment",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-13",
+          "topic": "Overview of Web Security",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-15",
+          "topic": "Basic Auth System Design",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-20",
+          "topic": "Guest Speaker",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-22",
+          "topic": "Guest Speaker",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-27",
+          "topic": "Microservices",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-10-29",
+          "topic": "Kuberenetes",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-03",
+          "topic": "Functions as a Service",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-05",
+          "topic": "Guest Speaker",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-10",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-12",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-17",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-19",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-24",
+          "topic": "Thanksgiving Break",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-26",
+          "topic": "Thanksgiving Break",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-12-01",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-12-03",
+          "topic": "Miscellaneous Topics",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+        }
+      ]
     }
   },
   components: {
     LectureEntry,
     ScheduleEntry,
+    SlideEntry,
   },
 }
 </script>
@@ -112,69 +618,5 @@ query Schedule {
     siteName
     semester
   }
-
-  weeks: allWeeks(sortBy: "date", order:ASC) {
-    totalCount
-    edges {
-      node {
-        id
-        date (format: "YYYY-MM-DD")
-        topic
-        lecture
-        homework
-        note
-        project
-        quiz
-      }
-    }
-  }
-  
-  notes: allNotes {
-    edges {
-      node {
-        id
-        date (format: "YYYY-MM-DD")
-        title
-        path
-      }
-    }
-  }
-
-  homeworks: allHomeworks {
-    edges {
-      node {
-        id
-        date (format: "YYYY-MM-DD")
-        dueDate (format: "YYYY-MM-DD")
-        title
-        path
-      }
-    }
-  }
-
-  projects: allProjects {
-    edges {
-      node {
-        id
-        date (format: "YYYY-MM-DD")
-        dueDate (format: "YYYY-MM-DD")
-        title
-        path
-      }
-    }
-  }
-
-  quizes: allQuizes {
-    edges {
-      node {
-        id
-        date (format: "YYYY-MM-DD")
-        dueDate (format: "YYYY-MM-DD")
-        title
-        path
-      }
-    }
-  }
-
 }
 </static-query>
