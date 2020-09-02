@@ -75,7 +75,7 @@ export default {
         {
           "date": "2020-09-01",
           "topic": "Cloud Computing and SaaS Overview - \"Map of the World\"",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=4su_buUTpic&list=PLV_GF_qHLYJbwHWJvYR333FPL025k68OS",
           "slides": "lecture_1.pdf",
           "homework": {
             display: "",
