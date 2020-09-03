@@ -1,63 +1,65 @@
 <template>
-<table id="schedule">
-  <colgroup>
-     <col span="1" style="width: 9%;">
-     <col span="1" style="width: 15%;">
-     <col span="1" style="width: 40%;">
-     <col span="1" style="width: 18%;">
-     <col span="1" style="width: 18%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Week</th>
-      <th>Date</th>
-      <th>Lecture</th>
-      <th>Slides</th>
-      <th>Assignments</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr v-for="(entry, i) in schedule">
-      <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
-      <td>{{ entry.date }}</td>
-      <td>
-        <nav class="schedule-table-cell">
-          <LectureEntry
-            :display="entry.topic"
-            :link="entry.lecture"
-           />
-         </nav>
-      </td>
-      <td>
-        <SlideEntry
-          display="Slides"
-          :link="entry.slides"
-        />
-      </td>
-      <td>
-        <ScheduleEntry
-          :display="entry.homework.display"
-          prefix="homeworks"
-          :link="entry.homework.link"
-          noLinkDisplay=""
-        />
-        <br />
-        <ScheduleEntry
-          :display="entry.quiz.display"
-          prefix="quizes"
-          :link="entry.quiz.link"
-          noLinkDisplay=""
-        /><br />
-        <ScheduleEntry
-          :display="entry.project.display"
-          prefix="projects"
-          :link="entry.project.link"
-          noLinkDisplay=""
-        />
-      </td>
-    </tr>
-  </tbody>
-</table> 
+<div id="schedule-wrapper">
+  <table id="schedule">
+    <colgroup>
+       <col span="1" style="width: 9%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 40%;">
+       <col span="1" style="width: 18%;">
+       <col span="1" style="width: 18%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Lecture</th>
+        <th>Slides</th>
+        <th>Assignments</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(entry, i) in schedule">
+        <td class="schedule-week" :rowspan="daysPerWeek" v-if="i % daysPerWeek == 0">{{ i / daysPerWeek + 1 }}</td>
+        <td>{{ entry.date }}</td>
+        <td>
+          <nav class="schedule-table-cell">
+            <LectureEntry
+              :display="entry.topic"
+              :link="entry.lecture"
+             />
+           </nav>
+        </td>
+        <td>
+          <SlideEntry
+            display="Slides"
+            :link="entry.slides"
+          />
+        </td>
+        <td>
+          <ScheduleEntry
+            :display="entry.homework.display"
+            prefix="homeworks"
+            :link="entry.homework.link"
+            noLinkDisplay=""
+          />
+          <br />
+          <ScheduleEntry
+            :display="entry.quiz.display"
+            prefix="quizes"
+            :link="entry.quiz.link"
+            noLinkDisplay=""
+          /><br />
+          <ScheduleEntry
+            :display="entry.project.display"
+            prefix="projects"
+            :link="entry.project.link"
+            noLinkDisplay=""
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table> 
+</div>
 </template>
 
 <script>
@@ -588,6 +590,9 @@ export default {
 </script>
 
 <style>
+#schedule-wrapper {
+  overflow-x: auto;
+}
 #schedule {
   table-layout: fixed;
   width: 100%;
