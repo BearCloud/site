@@ -95,7 +95,7 @@ export default {
         {
           "date": "2020-09-03",
           "topic": "Git, Unix Command Line, Text Editors",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=uMfihYPfnMo",
           "slides": "lecture_2.pdf",
           "homework": {
             display: "",
