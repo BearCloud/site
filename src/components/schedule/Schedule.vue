@@ -96,7 +96,7 @@ export default {
           "date": "2020-09-03",
           "topic": "Git, Unix Command Line, Text Editors",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture_2.pdf",
           "homework": {
             display: "",
             link: ""
