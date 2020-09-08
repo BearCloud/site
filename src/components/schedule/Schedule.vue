@@ -111,7 +111,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-24",
+          "date": "2020-09-08",
           "topic": "Web Dev / HTTP API",
           "lecture": "",
           "slides": "",
@@ -129,7 +129,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-08",
+          "date": "2020-09-10",
           "topic": "Introduction to Golang",
           "lecture": "",
           "slides": "",
@@ -147,7 +147,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-10",
+          "date": "2020-09-15",
           "topic": "Guest Speaker",
           "lecture": "",
           "slides": "",
@@ -165,7 +165,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-15",
+          "date": "2020-09-17",
           "topic": "Introduction to Docker",
           "lecture": "",
           "slides": "",
@@ -183,7 +183,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-17",
+          "date": "2020-09-22",
           "topic": "Introduction to Databases/SQL",
           "lecture": "",
           "slides": "",
@@ -201,7 +201,7 @@ export default {
           },
         },
         {
-          "date": "2020-09-22",
+          "date": "2020-09-24",
           "topic": "Project",
           "lecture": "",
           "slides": "",
