@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Resources</h1>
-    <p>Check back soon!</p>
+    <p>Terminal and Git cheatsheet: <g-link to="/notes/cheatsheet1/">here</g-link></p>
   </Layout>
 </template>
 
