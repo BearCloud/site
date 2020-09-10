@@ -113,8 +113,8 @@ export default {
         {
           "date": "2020-09-08",
           "topic": "Web Dev / HTTP API",
-          "lecture": "",
-          "slides": "",
+          "lecture": "https://www.youtube.com/watch?v=Kyxos2PSXQg",
+          "slides": "lecture_3.pdf",
           "homework": {
             display: "",
             link: ""
