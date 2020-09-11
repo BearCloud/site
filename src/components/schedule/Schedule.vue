@@ -2,11 +2,12 @@
 <div id="schedule-wrapper">
   <table id="schedule">
     <colgroup>
-       <col span="1" style="width: 9%;">
+       <col span="1" style="width: 6%;">
        <col span="1" style="width: 15%;">
        <col span="1" style="width: 40%;">
-       <col span="1" style="width: 18%;">
-       <col span="1" style="width: 18%;">
+       <col span="1" style="width: 13%;">
+       <col span="1" style="width: 13%;">
+       <col span="1" style="width: 13%;">
     </colgroup>
     <thead>
       <tr>
@@ -15,6 +16,7 @@
         <th>Lecture</th>
         <th>Slides</th>
         <th>Assignments</th>
+        <th>Resources</th>
       </tr>
     </thead>
     <tbody>
@@ -56,6 +58,14 @@
             noLinkDisplay=""
           />
         </td>
+        <td>
+          <ScheduleEntry
+            :display="entry.note.display"
+            prefix="notes"
+            :link="entry.note.link"
+            noLinkDisplay=""
+          />
+        </td>
       </tr>
     </tbody>
   </table> 
@@ -91,6 +101,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-09-03",
@@ -109,6 +123,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "Terminal and Git",
+            link: "cheatsheet1"
+          },
         },
         {
           "date": "2020-09-08",
@@ -124,6 +142,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -145,6 +167,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-09-15",
@@ -160,6 +186,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -181,6 +211,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-09-22",
@@ -196,6 +230,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -217,6 +255,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-09-29",
@@ -232,6 +274,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -253,6 +299,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-10-06",
@@ -268,6 +318,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -289,6 +343,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-10-13",
@@ -304,6 +362,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -325,6 +387,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-10-20",
@@ -340,6 +406,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -361,6 +431,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-10-27",
@@ -376,6 +450,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -397,6 +475,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-11-03",
@@ -412,6 +494,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -433,6 +519,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-11-10",
@@ -448,6 +538,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -469,6 +563,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-11-17",
@@ -484,6 +582,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -505,6 +607,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-11-24",
@@ -520,6 +626,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
@@ -541,6 +651,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-12-01",
@@ -559,6 +673,10 @@ export default {
             display: "",
             link: ""
           },
+          "note": {
+            display: "",
+            link: ""
+          },
         },
         {
           "date": "2020-12-03",
@@ -574,6 +692,10 @@ export default {
             link: ""
           },
           "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
             display: "",
             link: ""
           },
