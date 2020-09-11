@@ -131,8 +131,8 @@ export default {
         {
           "date": "2020-09-10",
           "topic": "Introduction to Golang",
-          "lecture": "",
-          "slides": "",
+          "lecture": "https://www.youtube.com/watch?v=DZLa2mavdqA",
+          "slides": "lecture_4.pdf",
           "homework": {
             display: "",
             link: ""
