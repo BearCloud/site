@@ -7,13 +7,11 @@ p img {
   margin-left: auto;
   margin-right: auto;
 }
-
-ul {
-	list-style: circle;
+em {
+  font-style: italic;
 }
-
-ol {
-	list-style-type: decimal;
+strong {
+  font-style: oblique;
 }
 
 ul, ol {
@@ -21,6 +19,12 @@ ul, ol {
   padding-left: 0em;
   padding-bottom: 10px;
   margin: 10px;
+}
+ul {
+	list-style: circle;
+}
+ol {
+	list-style-type: decimal;
 }
 ol ol, ul ol {
   list-style-type: lower-roman
