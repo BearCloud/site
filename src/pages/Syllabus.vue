@@ -58,20 +58,20 @@
     <h2>Grading</h2>
     <h4>Graded Course Activities</h4>
     <p>
-      Visit the <g-link to="/">course home page</g-link> for details about assignments. Quizzes will be submitted on Gradescope.
+      Visit the <g-link to="/">course home page</g-link> for details about assignments. Homeworks will be submitted on Gradescope.
     </p>
     <p>
       Your overall course grade is determined by the following distribution:
     </p>
     <ul>
       <li><b>Attendance:</b> 10%</li>
-      <li><b>Quizzes:</b> 30%</li>
+      <li><b>Homework:</b> 30%</li>
       <li><b>Project:</b> 50%</li>
       <li><b>Final reflection:</b> 10%</li>
     </ul>
     <h4>Late Work Policy</h4>
     <p>
-      Pay close attention to deadlines; there will be limited opportunities to make up quizzes or other assignments without instructor approval.
+      Pay close attention to deadlines; there will be limited opportunities to make up homeworks or other assignments without instructor approval.
     </p>
     <h4>Grading and PNP</h4>
     <p>
