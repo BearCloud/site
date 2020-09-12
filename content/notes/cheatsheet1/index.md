@@ -72,14 +72,14 @@ date: 2020-09-08
 ### Initializing a Repo
 
 1. Locally create a directory for your project. To do this through terminal, you can:
-  1. `cd <path/To/TheDirectoryYouWantYourFolderToBeIn>`
-  2. `mkdir <newFolderName>`
-  3. Then confirm that the new directory is made correctly using `ls`
+    1. `cd <path/To/TheDirectoryYouWantYourFolderToBeIn>`
+    2. `mkdir <newFolderName>`
+    3. Then confirm that the new directory is made correctly using `ls`
 2. `cd <folderName>` to go into that folder
 3. Before typing `git init` make sure you have configurated your github info. See config instructions below.
-  - If you get this error on a Mac: 
-  ```xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun```
-  Your Xcode Command-line Tools need to be updated. So enter into terminal `xcode-select --install`
+    - If you get this error on a Mac: 
+    ```xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun```
+    Your Xcode Command-line Tools need to be updated. So enter into terminal `xcode-select --install`
 
 ### Status
 

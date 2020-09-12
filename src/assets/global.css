@@ -8,15 +8,19 @@ p img {
   margin-right: auto;
 }
 
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
 ul, ol {
   font-size: 16px;
-  padding-left: 4em;
+  padding-left: 0em;
   padding-bottom: 10px;
   margin: 10px;
-  margin-left: 2em;
-	list-style: circle;
-  list-style-position: inside;
-  text-indent: -1em;
 }
 ol ol, ul ol {
   list-style-type: lower-roman
@@ -24,11 +28,15 @@ ol ol, ul ol {
 ul ul ol, ul ol ol, ol ul ol, ol ol ol {
   list-style-type: lower-alpha
 }
+ul > li, ol > li {
+  padding-left: 1em;
+  margin-left: 1em;
+}
 
 hr {
   border: 0;
-  clear:both;
-  display:block;
+  clear: both;
+  display: block;
   width: 96%;               
   background-color:#FFFF00;
   height: 1px;
