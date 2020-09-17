@@ -174,8 +174,8 @@ export default {
         },
         {
           "date": "2020-09-15",
-          "topic": "Guest Speaker",
-          "lecture": "",
+          "topic": "Guest Speaker: Raju Malhotra, CTO @ Punchh",
+          "lecture": "https://www.youtube.com/watch?v=w2Ck0j6pvS4",
           "slides": "",
           "homework": {
             display: "",
