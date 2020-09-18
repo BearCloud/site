@@ -218,7 +218,7 @@ export default {
         },
         {
           "date": "2020-09-22",
-          "topic": "Docker",
+          "topic": "Introduction to Docker",
           "lecture": "",
           "slides": "",
           "homework": {
