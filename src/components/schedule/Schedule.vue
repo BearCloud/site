@@ -196,8 +196,8 @@ export default {
         },
         {
           "date": "2020-09-17",
-          "topic": "Introduction to Docker",
-          "lecture": "",
+          "topic": "Golang",
+          "lecture": "lecture5.pdf",
           "slides": "",
           "homework": {
             display: "",
