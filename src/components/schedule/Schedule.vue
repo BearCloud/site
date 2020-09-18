@@ -218,7 +218,7 @@ export default {
         },
         {
           "date": "2020-09-22",
-          "topic": "Introduction to Databases/SQL",
+          "topic": "Docker",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -240,7 +240,7 @@ export default {
         },
         {
           "date": "2020-09-24",
-          "topic": "Project",
+          "topic": "Introduction to Databases/SQL",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -262,7 +262,7 @@ export default {
         },
         {
           "date": "2020-09-29",
-          "topic": "Resume Workshop",
+          "topic": "Project",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -284,7 +284,7 @@ export default {
         },
         {
           "date": "2020-10-01",
-          "topic": "LinkedIn Workshop",
+          "topic": "Resume Workshop",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -306,7 +306,7 @@ export default {
         },
         {
           "date": "2020-10-06",
-          "topic": "Cloud Deployments",
+          "topic": "LinkedIn Workshop",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -328,7 +328,7 @@ export default {
         },
         {
           "date": "2020-10-08",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -350,7 +350,7 @@ export default {
         },
         {
           "date": "2020-10-13",
-          "topic": "Overview of Web Security",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -372,7 +372,7 @@ export default {
         },
         {
           "date": "2020-10-15",
-          "topic": "Basic Auth System Design",
+          "topic": "Overview of Web Security",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -394,7 +394,7 @@ export default {
         },
         {
           "date": "2020-10-20",
-          "topic": "Guest Speaker",
+          "topic": "Basic Auth System Design",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -438,72 +438,6 @@ export default {
         },
         {
           "date": "2020-10-27",
-          "topic": "Microservices",
-          "lecture": "",
-          "slides": "",
-          "homework": {
-            display: "",
-            link: ""
-          },
-          "project": {
-            display: "",
-            link: ""
-          },
-          "quiz": {
-            display: "",
-            link: ""
-          },
-          "note": {
-            display: "",
-            link: ""
-          },
-        },
-        {
-          "date": "2020-10-29",
-          "topic": "Kuberenetes",
-          "lecture": "",
-          "slides": "",
-          "homework": {
-            display: "",
-            link: ""
-          },
-          "project": {
-            display: "",
-            link: ""
-          },
-          "quiz": {
-            display: "",
-            link: ""
-          },
-          "note": {
-            display: "",
-            link: ""
-          },
-        },
-        {
-          "date": "2020-11-03",
-          "topic": "Functions as a Service",
-          "lecture": "",
-          "slides": "",
-          "homework": {
-            display: "",
-            link: ""
-          },
-          "project": {
-            display: "",
-            link: ""
-          },
-          "quiz": {
-            display: "",
-            link: ""
-          },
-          "note": {
-            display: "",
-            link: ""
-          },
-        },
-        {
-          "date": "2020-11-05",
           "topic": "Guest Speaker",
           "lecture": "",
           "slides": "",
@@ -525,8 +459,74 @@ export default {
           },
         },
         {
+          "date": "2020-10-29",
+          "topic": "Microservices",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-03",
+          "topic": "Kuberenetes",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
+            display: "",
+            link: ""
+          },
+        },
+        {
+          "date": "2020-11-05",
+          "topic": "Functions as a Service",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
+            display: "",
+            link: ""
+          },
+        },
+        {
           "date": "2020-11-10",
-          "topic": "Miscellaneous Topics",
+          "topic": "Guest Speaker",
           "lecture": "",
           "slides": "",
           "homework": {
