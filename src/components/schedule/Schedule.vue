@@ -197,7 +197,7 @@ export default {
         {
           "date": "2020-09-17",
           "topic": "Golang",
-          "lecture": "lecture5.pdf",
+          "lecture": "lecture5a.pdf",
           "slides": "",
           "homework": {
             display: "",
