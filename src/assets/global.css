@@ -11,7 +11,7 @@ em {
   font-style: italic;
 }
 strong {
-  font-style: oblique;
+  font-weight: bold;
 }
 
 ul, ol {
