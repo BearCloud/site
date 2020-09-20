@@ -200,8 +200,8 @@ export default {
           "lecture": "https://www.youtube.com/watch?v=hXOZqo30wDI",
           "slides": "lecture5a.pdf",
           "homework": {
-            display: "",
-            link: ""
+            display: "Homework 2",
+            link: "hw2"
           },
           "project": {
             display: "",
