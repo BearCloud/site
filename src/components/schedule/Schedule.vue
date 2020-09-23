@@ -220,7 +220,7 @@ export default {
           "date": "2020-09-22",
           "topic": "Introduction to Docker",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture6.pdf",
           "homework": {
             display: "",
             link: ""
