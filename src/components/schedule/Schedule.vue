@@ -219,7 +219,7 @@ export default {
         {
           "date": "2020-09-22",
           "topic": "Finshing Golang",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=q-iL6zJZqt8",
           "slides": "lecture6a.pdf",
           "homework": {
             display: "",
@@ -242,7 +242,7 @@ export default {
           "date": "2020-09-24",
           "topic": "Introduction to Docker",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture7.pdf",
           "homework": {
             display: "",
             link: ""
