@@ -241,7 +241,7 @@ export default {
         {
           "date": "2020-09-24",
           "topic": "Introduction to Docker",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=nuGZA6YKZho",
           "slides": "lecture7.pdf",
           "homework": {
             display: "",
