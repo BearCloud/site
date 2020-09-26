@@ -262,7 +262,7 @@ export default {
         },
         {
           "date": "2020-09-29",
-          "topic": "Project",
+          "topic": "Introduction to Databases/SQL",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -284,7 +284,7 @@ export default {
         },
         {
           "date": "2020-10-01",
-          "topic": "Introduction to Databases/SQL",
+          "topic": "Project",
           "lecture": "",
           "slides": "",
           "homework": {
