@@ -504,7 +504,7 @@ export default {
         },
         {
           "date": "2020-11-05",
-          "topic": "Kuberenetes",
+          "topic": "Guest Speaker",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -526,7 +526,7 @@ export default {
         },
         {
           "date": "2020-11-10",
-          "topic": "Functions as a Service",
+          "topic": "Kuberenetes",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -548,7 +548,7 @@ export default {
         },
         {
           "date": "2020-11-12",
-          "topic": "Guest Speaker",
+          "topic": "Functions as a Service",
           "lecture": "",
           "slides": "",
           "homework": {
