@@ -264,7 +264,7 @@ export default {
           "date": "2020-09-29",
           "topic": "Introduction to Databases/SQL",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture7.pdf",
           "homework": {
             display: "",
             link: ""
