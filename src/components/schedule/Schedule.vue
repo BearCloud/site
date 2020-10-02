@@ -263,7 +263,7 @@ export default {
         {
           "date": "2020-09-29",
           "topic": "Introduction to Databases/SQL",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=PEm4dCfRfr8",
           "slides": "lecture8.pdf",
           "homework": {
             display: "",
