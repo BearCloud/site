@@ -285,7 +285,7 @@ export default {
         {
           "date": "2020-10-01",
           "topic": "Project",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=WKM6xb5Xwig",
           "slides": "",
           "homework": {
             display: "",
