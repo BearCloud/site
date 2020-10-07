@@ -308,7 +308,7 @@ export default {
           "date": "2020-10-06",
           "topic": "Resume Workshop",
           "lecture": "https://www.youtube.com/watch?v=w3jKPuShDgs",
-          "slides": "",
+          "slides": "lecture10.pdf",
           "homework": {
             display: "",
             link: ""
