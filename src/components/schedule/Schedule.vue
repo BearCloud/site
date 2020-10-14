@@ -328,7 +328,7 @@ export default {
         },
         {
           "date": "2020-10-08",
-          "topic": "LinkedIn Workshop",
+          "topic": "Guest Speaker: Ismail Azam, LinkedIn Workshop",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -350,9 +350,9 @@ export default {
         },
         {
           "date": "2020-10-13",
-          "topic": "Cloud Deployments",
-          "lecture": "",
-          "slides": "",
+          "topic": "Microservices",
+          "lecture": "https://www.youtube.com/watch?v=5dKQt4DEtlU",
+          "slides": "lecture11.pdf",
           "homework": {
             display: "",
             link: ""
@@ -482,7 +482,7 @@ export default {
         },
         {
           "date": "2020-11-03",
-          "topic": "Microservices",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
