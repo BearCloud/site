@@ -354,8 +354,8 @@ export default {
           "lecture": "https://www.youtube.com/watch?v=5dKQt4DEtlU",
           "slides": "lecture11.pdf",
           "homework": {
-            display: "",
-            link: ""
+            display: "Project 1 Checkpoint",
+            link: "hw4"
           },
           "project": {
             display: "",
