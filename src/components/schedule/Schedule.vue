@@ -372,9 +372,9 @@ export default {
         },
         {
           "date": "2020-10-15",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "Codebase Walkthrough",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture12.pdf",
           "homework": {
             display: "",
             link: ""
@@ -570,7 +570,7 @@ export default {
         },
         {
           "date": "2020-11-17",
-          "topic": "Miscellaneous Topics",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
