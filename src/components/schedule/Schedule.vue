@@ -373,7 +373,7 @@ export default {
         {
           "date": "2020-10-15",
           "topic": "Codebase Walkthrough",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=IzK_2Yq3-l4",
           "slides": "lecture12.pdf",
           "homework": {
             display: "",
