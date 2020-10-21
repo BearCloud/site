@@ -394,9 +394,9 @@ export default {
         },
         {
           "date": "2020-10-20",
-          "topic": "Overview of Web Security",
+          "topic": "Web Security",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture13.pdf",
           "homework": {
             display: "",
             link: ""
