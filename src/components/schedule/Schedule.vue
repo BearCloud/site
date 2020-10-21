@@ -395,7 +395,7 @@ export default {
         {
           "date": "2020-10-20",
           "topic": "Web Security",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=Qsdr3OnyM3I",
           "slides": "lecture13.pdf",
           "homework": {
             display: "",
