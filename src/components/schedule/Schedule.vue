@@ -418,7 +418,7 @@ export default {
           "date": "2020-10-22",
           "topic": "Guest Speaker: Amber Feng",
           "lecture": "",
-          "slides": "lecture14.pdf",
+          "slides": "lecture14a.pdf",
           "homework": {
             display: "",
             link: ""
