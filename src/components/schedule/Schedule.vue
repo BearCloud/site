@@ -416,9 +416,9 @@ export default {
         },
         {
           "date": "2020-10-22",
-          "topic": "Basic Auth System Design",
+          "topic": "Guest Speaker: Amber Feng",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture14.pdf",
           "homework": {
             display: "",
             link: ""
