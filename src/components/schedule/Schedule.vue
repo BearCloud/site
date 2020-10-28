@@ -438,7 +438,7 @@ export default {
         },
         {
           "date": "2020-10-27",
-          "topic": "Guest Speaker",
+          "topic": "Guest Speaker: Greg Pavlik",
           "lecture": "",
           "slides": "",
           "homework": {
