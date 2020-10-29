@@ -439,8 +439,8 @@ export default {
         {
           "date": "2020-10-27",
           "topic": "Guest Speaker: Greg Pavlik",
-          "lecture": "",
-          "slides": "",
+          "lecture": "https://www.youtube.com/watch?v=ss6kFwEI308",
+          "slides": "lecture15.pdf",
           "homework": {
             display: "",
             link: ""
