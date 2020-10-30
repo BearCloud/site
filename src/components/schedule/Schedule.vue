@@ -461,7 +461,7 @@ export default {
         {
           "date": "2020-10-29",
           "topic": "Injection and XSS",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=47ncGrs3-30",
           "slides": "lecture16.pdf",
           "homework": {
             display: "",
