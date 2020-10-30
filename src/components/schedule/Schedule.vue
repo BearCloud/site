@@ -460,9 +460,9 @@ export default {
         },
         {
           "date": "2020-10-29",
-          "topic": "Guest Speaker",
+          "topic": "Injection and XSS",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture16.pdf",
           "homework": {
             display: "",
             link: ""
