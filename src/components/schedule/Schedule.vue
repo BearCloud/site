@@ -482,7 +482,7 @@ export default {
         },
         {
           "date": "2020-11-03",
-          "topic": "Cloud Deployments",
+          "topic": "No class (Election day)",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -504,7 +504,7 @@ export default {
         },
         {
           "date": "2020-11-05",
-          "topic": "Guest Speaker",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
