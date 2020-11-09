@@ -504,7 +504,7 @@ export default {
         },
         {
           "date": "2020-11-05",
-          "topic": "Cloud Deployments",
+          "topic": "Guest Speaker: Usman Muzaffar, Head of Engineering @ Cloudflare",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -526,7 +526,7 @@ export default {
         },
         {
           "date": "2020-11-10",
-          "topic": "Kuberenetes",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -548,7 +548,7 @@ export default {
         },
         {
           "date": "2020-11-12",
-          "topic": "Functions as a Service",
+          "topic": "Kuberenetes",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -570,7 +570,7 @@ export default {
         },
         {
           "date": "2020-11-17",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "Functions as a Service",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -592,7 +592,7 @@ export default {
         },
         {
           "date": "2020-11-19",
-          "topic": "Miscellaneous Topics",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
