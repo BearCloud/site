@@ -526,28 +526,6 @@ export default {
         },
         {
           "date": "2020-11-10",
-          "topic": "Cloud Deployments",
-          "lecture": "",
-          "slides": "",
-          "homework": {
-            display: "",
-            link: ""
-          },
-          "project": {
-            display: "",
-            link: ""
-          },
-          "quiz": {
-            display: "",
-            link: ""
-          },
-          "note": {
-            display: "",
-            link: ""
-          },
-        },
-        {
-          "date": "2020-11-12",
           "topic": "Kuberenetes",
           "lecture": "",
           "slides": "",
@@ -569,8 +547,30 @@ export default {
           },
         },
         {
+          "date": "2020-11-12",
+          "topic": "Functions as a Service (FaaS)",
+          "lecture": "",
+          "slides": "",
+          "homework": {
+            display: "",
+            link: ""
+          },
+          "project": {
+            display: "",
+            link: ""
+          },
+          "quiz": {
+            display: "",
+            link: ""
+          },
+          "note": {
+            display: "",
+            link: ""
+          },
+        },
+        {
           "date": "2020-11-17",
-          "topic": "Functions as a Service",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -592,7 +592,7 @@ export default {
         },
         {
           "date": "2020-11-19",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
