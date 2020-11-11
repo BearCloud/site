@@ -528,7 +528,7 @@ export default {
           "date": "2020-11-10",
           "topic": "Kuberenetes",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture19.pdf",
           "homework": {
             display: "",
             link: ""
