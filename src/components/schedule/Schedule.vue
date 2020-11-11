@@ -527,7 +527,7 @@ export default {
         {
           "date": "2020-11-10",
           "topic": "Kuberenetes",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=Uyhz1O4MfoY",
           "slides": "lecture19.pdf",
           "homework": {
             display: "",
