@@ -550,7 +550,7 @@ export default {
           "date": "2020-11-12",
           "topic": "Functions as a Service (FaaS)",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture20.pdf",
           "homework": {
             display: "",
             link: ""
