@@ -586,8 +586,8 @@ export default {
             link: ""
           },
           "note": {
-            display: "",
-            link: ""
+            display: "Setting up Amazon Neptune",
+            link: "amazon-neptune"
           },
         },
         {
