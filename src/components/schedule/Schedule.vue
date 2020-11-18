@@ -570,8 +570,8 @@ export default {
         },
         {
           "date": "2020-11-17",
-          "topic": "Continuous Integration/Continuous Deployment",
-          "lecture": "",
+          "topic": "Guest Speaker: Brian Cuadra, Recruiter @ Microsoft",
+          "lecture": "https://www.youtube.com/watch?v=VRA4myYiGrM",
           "slides": "",
           "homework": {
             display: "",
@@ -592,7 +592,7 @@ export default {
         },
         {
           "date": "2020-11-19",
-          "topic": "Cloud Deployments",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -658,7 +658,7 @@ export default {
         },
         {
           "date": "2020-12-01",
-          "topic": "Miscellaneous Topics",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
