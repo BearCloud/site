@@ -13,6 +13,8 @@ Diagram taken from [here](https://docs.aws.amazon.com/neptune/latest/userguide/s
 
 Fortunately, we will also be hosting our project on our EC2 instance. This simplifies our setup greatly.
 
+Sign into AWS here: https://www.awseducate.com/signin/SiteLogin
+
 ### Setting up your EC2 instance
 
 If you already have an EC2 instance set up, you may partially or completely skip this section.
