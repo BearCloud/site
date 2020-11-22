@@ -7,7 +7,7 @@ This document will walk you through the process of setting up an Amazon Neptune 
 
 Note that it is *not possible* to connect to an Amazon Neptune database directly from your local machine. Instead, you must configure an EC2 instance to act as a bastion server:
 
-![pwd](./vpc-ec2-diagram.png)
+![VPC diagram](./vpc-ec2-diagram.png)
 
 Diagram taken from [here](https://docs.aws.amazon.com/neptune/latest/userguide/security-vpc.html).
 
@@ -17,17 +17,7 @@ Sign into AWS here: https://www.awseducate.com/signin/SiteLogin
 
 ### Setting up your EC2 instance
 
-If you already have an EC2 instance set up, you may partially or completely skip this section.
-
-1. Go to the AWS console. If you are logged into your AWS account, you can access it directly [here](https://console.aws.amazon.com/console/home).
-
-2. Search "EC2" in the search bar and click on the "EC2" option in the dropdown. This should take you to the EC2 dashboard.
-
-3. On the right, click on "Instances" to view your instances. Then, click on the "Launch instances" to launch a new EC2 instance. Select Amazon Linux, then accept all default options.
-
-4. Launch your instance. You will be prompted to download and save a `.pem` file. This holds the credentials needed to connect to your EC2 instance. Keep this in a safe place.
-
-5. After you launch your instance, go back to the instances page and click on your newly created EC2 instance. Take note of this instance's **VPC ID**.
+Please consult the "Setting up your EC2 instance" section of [Uploading BearChat to Amazon EC2](/notes/amazon-ec2). If you already have an EC2 instance set up, you may partially or completely skip this section.
 
 ### Setting up your Neptune database
 
@@ -43,7 +33,9 @@ If you already have an EC2 instance set up, you may partially or completely skip
 
 ### SSHing into your EC2 instance
 
-Please follow the guide from the AWS docs: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
+Please consult the "SSHing into your EC2 instance" section of [Uploading BearChat to Amazon EC2](/notes/amazon-ec2).
+
+You may also follow the guide from the AWS docs: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
 
 If you having trouble connecting, make sure you are using the correct private key and logging in as the user `ec2-user` instead of `root`. If you are using PuTTY (Windows only), make sure you convert your `.pem` file to a `.ppk` file.
 
@@ -56,6 +48,8 @@ If you having trouble connecting, make sure you are using the correct private ke
    - You may run into an issue when you try running the command `cp {@jre_path}/lib/security/cacerts /tmp/certs/cacerts`. If you are using a freshly provisioned EC2 instance, you can ignore this step.
 
    - When you see `your-neptune-endpoint`, use your **cluster endpoint**.
+   
+   - If you are experiencing "Host did not respond in a timely fashion," please see the section "Configuring Security Group" below.
    
 3. The AWS docs provide the example query `g.V().limit(1)` in order to test your connection to the Neptune database. If you'd like, you can copy paste the following commands to populate your database with test data:
 
@@ -93,3 +87,23 @@ curl -X POST -d '{"gremlin":"<GREMLIN_QUERY_HERE>"}' https://NEPTUNE_CLUSTER_END
 ```
 
 You must call the HTTPS response through EC2. The HTTPS request will always fail if you execute it on your local machine.
+
+### Configuring Security Group
+
+If the Neptune request is failing, your EC2 instance and Neptune database may be configured such that Neptune blocks connections from EC2. To fix this, perform the following steps:
+
+1. Go to your EC2 instance and take note of your EC2 security group:
+
+![Security 1](./security1.png)
+
+2. Go to your database instance and click on the security group:
+
+![Security 2](./security2.png)
+
+3. For your Neptune security group, add the following inbound rule:
+
+```
+Custom TCP - Port range 8182 - Custom source - <your EC2 security group>
+```
+
+![Security 3](./security3.png)

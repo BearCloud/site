@@ -608,8 +608,8 @@ export default {
             link: ""
           },
           "note": {
-            display: "",
-            link: ""
+            display: "Uploading BearChat to Amazon EC2",
+            link: "amazon-ec2"
           },
         },
         {
