@@ -592,7 +592,7 @@ export default {
         },
         {
           "date": "2020-11-19",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "(no class)",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -658,7 +658,7 @@ export default {
         },
         {
           "date": "2020-12-01",
-          "topic": "Cloud Deployments",
+          "topic": "Continuous Integration/Continuous Deployment",
           "lecture": "",
           "slides": "",
           "homework": {
@@ -680,7 +680,7 @@ export default {
         },
         {
           "date": "2020-12-03",
-          "topic": "Miscellaneous Topics",
+          "topic": "Cloud Deployments",
           "lecture": "",
           "slides": "",
           "homework": {
