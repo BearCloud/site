@@ -77,6 +77,7 @@ Amazon Linux uses `yum`. Instructions are adapted from [here](https://docs.aws.a
 sudo yum update -y
 sudo amazon-linux-extras install docker
 sudo service docker start
+sudo usermod -a -G docker ec2-user
 ```
 
 Then relog (log out and log in), and verify that Docker is running by using the following command:
