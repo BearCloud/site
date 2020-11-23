@@ -63,7 +63,8 @@
 <p>Amazon Linux uses <code class="language-text">yum</code>. Instructions are adapted from <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html" target rel="nofollow noopener noreferrer">here</a>. Run the following commands to install Docker:</p>
 <div class="gridsome-highlight" data-language="text"><pre class="language-text"><code class="language-text">sudo yum update -y
 sudo amazon-linux-extras install docker
-sudo service docker start</code></pre></div>
+sudo service docker start
+sudo usermod -a -G docker ec2-user</code></pre></div>
 <p>Then relog (log out and log in), and verify that Docker is running by using the following command:</p>
 <div class="gridsome-highlight" data-language="text"><pre class="language-text"><code class="language-text">docker info</code></pre></div>
 <p>In order to install docker-compose:</p>
