@@ -572,7 +572,7 @@ export default {
           "date": "2020-11-17",
           "topic": "Guest Speaker: Brian Cuadra, Recruiter @ Microsoft",
           "lecture": "https://www.youtube.com/watch?v=VRA4myYiGrM",
-          "slides": "",
+          "slides": "lecture21.pdf",
           "homework": {
             display: "",
             link: ""
