@@ -658,9 +658,9 @@ export default {
         },
         {
           "date": "2020-12-01",
-          "topic": "Continuous Integration/Continuous Deployment",
+          "topic": "CI/CD and OpenAPI",
           "lecture": "",
-          "slides": "",
+          "slides": "lecture22.pdf",
           "homework": {
             display: "",
             link: ""
