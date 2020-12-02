@@ -659,7 +659,7 @@ export default {
         {
           "date": "2020-12-01",
           "topic": "CI/CD and OpenAPI",
-          "lecture": "",
+          "lecture": "https://www.youtube.com/watch?v=z4Tbgo3yUqU",
           "slides": "lecture22.pdf",
           "homework": {
             display: "",
