@@ -680,8 +680,8 @@ export default {
         },
         {
           "date": "2020-12-03",
-          "topic": "Cloud Deployments",
-          "lecture": "",
+          "topic": "Guest Speaker: Jun Zhou, Cloud Engineer, Intro to Terraform",
+          "lecture": "https://www.youtube.com/watch?v=YZtevB6DAVI",
           "slides": "",
           "homework": {
             display: "",
