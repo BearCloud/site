@@ -9,7 +9,7 @@ Sign into AWS here: https://www.awseducate.com/signin/SiteLogin
 
 ### Changing frontend configuration
 
-The frontend code we give you is complete save a single configuration values that you need to modify. In `frontend/src/config/utils.js`, change the `HOST` variable to your IP address.
+The frontend code we give you is complete save a single configuration values that you need to modify. In `frontend/src/config/utils.js`, change the `HOST` variable to your EC2 instance's IP address.
 
 ### Setting up your EC2 instance
 
