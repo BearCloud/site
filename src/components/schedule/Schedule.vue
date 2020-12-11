@@ -696,8 +696,8 @@ export default {
             link: ""
           },
           "note": {
-            display: "",
-            link: ""
+            display: "Deploying BearChat frontend",
+            link: "amazon-frontend"
           },
         }
       ]
